@@ -1,6 +1,6 @@
 
 def output_jenkins():
-    value = '[+] ---------------------> function called scuessfully from jenkins script '
+    value = 'OOsucessOO'
     return(value)
 
 
