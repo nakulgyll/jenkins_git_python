@@ -1,8 +1,20 @@
+import json
+
+# some JSON:
+
 
 def output_jenkins():
     value = 'OOsucessOO'
-    print(value)
-    return(value)
+
+    x = {
+      "name": "John",
+      "age": 30,
+      "city": "New York"
+    }
+
+    # convert into JSON:
+    y = json.dumps(x)
+    return(x)
 
 
 
