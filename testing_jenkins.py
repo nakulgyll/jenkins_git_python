@@ -4,7 +4,7 @@ import json
 
 
 def output_jenkins():
-   dictionary = {
+    dictionary = {
     "name": "sathiyajith",
     "rollno": 56,
     "cgpa": 8.6,
